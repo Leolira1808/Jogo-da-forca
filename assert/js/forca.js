@@ -164,6 +164,86 @@ const palavras = [
     nome: "ISRAEL",
     categoria: "LUGARES - PAISES",
   }),
+  (palavra041 = {
+    nome: "PAPAGAIO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra042 = {
+    nome: "GATO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra043 = {
+    nome: "ELEFANTE",
+    categoria: "ANIMAIS",
+  }),
+  (palavra044 = {
+    nome: "MACACO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra045 = {
+    nome: "PORCO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra046 = {
+    nome: "VACA",
+    categoria: "ANIMAIS",
+  }),
+  (palavra047 = {
+    nome: "BUFALO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra048 = {
+    nome: "GIRAFA",
+    categoria: "ANIMAIS",
+  }),
+  (palavra049 = {
+    nome: "PORCO ESPINHO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra050 = {
+    nome: "CAVALO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra051 = {
+    nome: "TIGRE",
+    categoria: "ANIMAIS",
+  }),
+  (palavra052 = {
+    nome: "RINOCERONTE",
+    categoria: "ANIMAIS",
+  }),
+  (palavra053 = {
+    nome: "HIPOPOTAMO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra054 = {
+    nome: "JUMENTO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra055 = {
+    nome: "BODE",
+    categoria: "ANIMAIS",
+  }),
+  (palavra056 = {
+    nome: "CARNEIRO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra057 = {
+    nome: "PASSARINHO",
+    categoria: "ANIMAIS - AVE",
+  }),
+  (palavra058 = {
+    nome: "ARARA",
+    categoria: "ANIMAIS - AVE",
+  }),
+  (palavra059 = {
+    nome: "CACHORRO",
+    categoria: "ANIMAIS",
+  }),
+  (palavra060 = {
+    nome: "BALEIA",
+    categoria: "ANIMAIS",
+  }),
 ];
 
 criarPalavraSecreta();
