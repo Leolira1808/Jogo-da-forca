@@ -6,163 +6,163 @@ let palavraSecretaSorteada;
 const palavras = [
   (palavra001 = {
     nome: "CARUARU",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra002 = {
     nome: "RECIFE",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra003 = {
     nome: "OLINDA",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra004 = {
-    nome: "OROBO",
-    categoria: "LUGARES - CIDADES",
+    nome: "NATAL",
+    categoria: "CIDADES",
   }),
   (palavra005 = {
-    nome: "BOM JARDIM",
-    categoria: "LUGARES - CIDADES",
+    nome: "BELEM",
+    categoria: "CIDADES",
   }),
   (palavra006 = {
-    nome: "BELO JARDIM",
-    categoria: "LUGARES - CIDADES",
+    nome: "LONDRINA",
+    categoria: "CIDADES",
   }),
   (palavra007 = {
-    nome: "SURUBIM",
-    categoria: "LUGARES - CIDADES",
+    nome: "PELOTAS",
+    categoria: "CIDADES",
   }),
   (palavra008 = {
-    nome: "PAUDALHO",
-    categoria: "LUGARES - CIDADES",
+    nome: "GRAMADO",
+    categoria: "CIDADES",
   }),
   (palavra009 = {
-    nome: "SAO VICENTE",
-    categoria: "LUGARES - CIDADES",
+    nome: "PARAUAPEBAS",
+    categoria: "CIDADES",
   }),
   (palavra010 = {
     nome: "PORTO VELHO",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra011 = {
-    nome: "SAO PAULO",
-    categoria: "LUGARES - CIDADES",
+    nome: "SÃO PAULO",
+    categoria: "CIDADES",
   }),
   (palavra012 = {
     nome: "RIO DE JANEIRO",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra013 = {
     nome: "BELO HORIZONTE",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra014 = {
     nome: "CURITIBA",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra015 = {
     nome: "NOVA YORK",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra016 = {
     nome: "BOSTON",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra017 = {
     nome: "CARACAS",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra018 = {
     nome: "BUENOS AIRES",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra019 = {
     nome: "HAVANA",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra020 = {
     nome: "FORTALEZA",
-    categoria: "LUGARES - CIDADES",
+    categoria: "CIDADES",
   }),
   (palavra021 = {
     nome: "BRASIL",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra022 = {
     nome: "CHILE",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra023 = {
     nome: "ARGENTINA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra024 = {
     nome: "ESTADOS UNIDOS",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra025 = {
     nome: "BOLIVIA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra026 = {
     nome: "ALEMANHA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra027 = {
     nome: "REINO UNIDO",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra028 = {
     nome: "INGLATERRA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra029 = {
     nome: "CHINA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra030 = {
     nome: "JAPAO",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra031 = {
     nome: "ESPANHA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra032 = {
     nome: "MEXICO",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra033 = {
     nome: "EQUADOR",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra034 = {
     nome: "AUSTRIA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra035 = {
     nome: "BELGICA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra036 = {
     nome: "IRLANDA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra037 = {
     nome: "ISLANDIA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra038 = {
     nome: "CATAR",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra039 = {
     nome: "INDIA",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra040 = {
     nome: "ISRAEL",
-    categoria: "LUGARES - PAISES",
+    categoria: "PAISES",
   }),
   (palavra041 = {
     nome: "PAPAGAIO",
@@ -229,20 +229,180 @@ const palavras = [
     categoria: "ANIMAIS",
   }),
   (palavra057 = {
-    nome: "PASSARINHO",
-    categoria: "ANIMAIS - AVE",
+    nome: "COBRA",
+    categoria: "ANIMAIS",
   }),
   (palavra058 = {
-    nome: "ARARA",
-    categoria: "ANIMAIS - AVE",
+    nome: "CACHORRO",
+    categoria: "ANIMAIS",
   }),
   (palavra059 = {
-    nome: "CACHORRO",
+    nome: "CHIMPANZE",
     categoria: "ANIMAIS",
   }),
   (palavra060 = {
     nome: "BALEIA",
     categoria: "ANIMAIS",
+  }),
+  (palavra061 = {
+    nome: "FLAMENGO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra62 = {
+    nome: "PALMEIRAS",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra063 = {
+    nome: "FLUMINENSE",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra064 = {
+    nome: "BOTAFOGO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra065 = {
+    nome: "VASCO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra066 = {
+    nome: "SAO PAULO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra067 = {
+    nome: "CORINTHIANS",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra068 = {
+    nome: "SANTA CRUZ",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra069 = {
+    nome: "NAUTICO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra070 = {
+    nome: "SPORT",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra071 = {
+    nome: "FIGUEIRENSE",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra072 = {
+    nome: "AVAI",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra073 = {
+    nome: "CHAPECOENSE",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra74 = {
+    nome: "CRUZEIRO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra075 = {
+    nome: "ATLETICO MG",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra076 = {
+    nome: "ATLETICO PR",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra077 = {
+    nome: "CORITIBA",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra078 = {
+    nome: "INTERNACIONAL",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra079 = {
+    nome: "GREMIO",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra080 = {
+    nome: "JUVENTUDE",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra081 = {
+    nome: "CUIABA",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra082 = {
+    nome: "PONTE PRETA",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra083 = {
+    nome: "GUARANI",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra084 = {
+    nome: "LONDRINA",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra085 = {
+    nome: "GOIAS",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra086 = {
+    nome: "VILA NOVA",
+    categoria: "TIMES - FUTEBOL",
+  }),
+  (palavra087 = {
+    nome: "FACA",
+    categoria: "OBJETO",
+  }),
+  (palavra88 = {
+    nome: "GARFO",
+    categoria: "OBJETO",
+  }),
+  (palavra089 = {
+    nome: "COLHER",
+    categoria: "OBJETO",
+  }),
+  (palavra090 = {
+    nome: "SACA ROLHA",
+    categoria: "OBJETO",
+  }),
+  (palavra091 = {
+    nome: "SERROTE",
+    categoria: "OBJETO",
+  }),
+  (palavra092 = {
+    nome: "PRATO",
+    categoria: "OBJETO",
+  }),
+  (palavra093 = {
+    nome: "XICARA",
+    categoria: "OBJETO",
+  }),
+  (palavra094 = {
+    nome: "TESOURA",
+    categoria: "OBJETO",
+  }),
+  (palavra095 = {
+    nome: "MESA",
+    categoria: "OBJETO",
+  }),
+  (palavra096 = {
+    nome: "CADEIRA",
+    categoria: "OBJETO",
+  }),
+  (palavra097 = {
+    nome: "CAMA",
+    categoria: "OBJETO",
+  }),
+  (palavra098 = {
+    nome: "MESA",
+    categoria: "OBJETO",
+  }),
+  (palavra090 = {
+    nome: "COMODA",
+    categoria: "OBJETO",
+  }),
+  (palavra100 = {
+    nome: "SAPATO",
+    categoria: "OBJETO",
   }),
 ];
 

@@ -103,9 +103,9 @@ footer {
 }
 
 .logo {
-    width: 20px;
-    height: 20px;
-    margin-top: 1%;
+    width: 10px;
+    height: 10px;
+
 }
 
 .nome {
@@ -113,4 +113,9 @@ footer {
     font-style: italic;
     font-size: x-small;
     color: #ffffff;
+}
+
+P {
+    font-family: 'Ubuntu', sans-serif;
+    color: #8b008b;
 }
