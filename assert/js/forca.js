@@ -1,3 +1,4 @@
+let jogarNovamente = true;
 let tentativas = 6;
 let listaDinamica = [];
 let palavraSecretaCategoria;
@@ -480,7 +481,7 @@ function mudarStyleLetra(tecla, condicao) {
   }
 }
 
-function comparaListas(letra) {
+async function comparaListas(letra) {
   const pos = palavraSecretaSorteada.indexOf(letra);
   if (pos < 0) {
     tentativas--;
@@ -493,6 +494,7 @@ function comparaListas(letra) {
         "Não foi desta vez! ... A palavra secreta era <br>" +
           palavraSecretaSorteada
       );
+      piscarBotaoJogarNovamente();
       // verificar sem ainda tem alguma tentativa // mensagem
     }
   } else {
@@ -513,7 +515,26 @@ function comparaListas(letra) {
   if (vitoria == true) {
     abreModal("Parabens!!!!", "Você venceu....."); // mensagem na tela
     tentativas = 0;
+    piscarBotaoJogarNovamente();
   }
+}
+
+async function piscarBotaoJogarNovamente() {
+  // <-- função para deixar o botão reiniciar piscando
+  while (jogarNovamente == true) {
+    document.getElementById("btnReiniciar").style.backgroundColor = "green";
+    document.getElementById("btnReiniciar").style.scale = 1.3;
+    await atraso(500);
+    document.getElementById("btnReiniciar").style.backgroundColor = "yellow";
+    document.getElementById("btnReiniciar").style.scale = 1;
+    await atraso(500);
+  }
+}
+
+async function atraso(tempo) {
+  // função tempo de atraso para o btnReiniciar piscar
+
+  return new Promise((x) => setTimeout(x, tempo));
 }
 
 function carregaImagemForca() {
@@ -563,5 +584,6 @@ function abreModal(titulo, mensagem) {
 
 let btnReiniciar = document.querySelector("#btnReiniciar");
 btnReiniciar.addEventListener("click", function () {
+  jogarNovamente = false; // <-- só uma garantia para não dar erro
   location.reload();
 });
